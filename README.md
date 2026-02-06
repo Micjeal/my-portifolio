@@ -47,3 +47,8 @@ src/
 ## Deployment
 
 Optimized for Vercel deployment. Push to GitHub and import the repository in Vercel.
+
+### Netlify
+
+If deploying to Netlify, set the build command to `npm run build && npm run export` and the publish directory to `out`.
+This repository includes a `netlify.toml` file with these settings preconfigured.
