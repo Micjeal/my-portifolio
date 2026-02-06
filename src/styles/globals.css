@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface text-primary-900 font-body;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.35);
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-glass;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-heading font-semibold text-primary-900;
+}
+
+.section-subtitle {
+  @apply text-base md:text-lg text-primary-700;
+}
