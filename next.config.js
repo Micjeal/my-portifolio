@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  // Enable static export for hosts like Netlify.
   output: "export",
   images: {
     unoptimized: true

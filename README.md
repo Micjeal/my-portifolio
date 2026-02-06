@@ -28,6 +28,8 @@ npm run build
 
 The static export output will be in the `out/` directory for deployment to static hosts.
 
+To preview the static export locally, serve the `out/` directory with any static file server.
+
 ```bash
 npm run start
 ```
