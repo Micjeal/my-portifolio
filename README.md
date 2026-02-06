@@ -24,7 +24,6 @@ Open `http://localhost:3000` in your browser.
 
 ```bash
 npm run build
-npm run export
 ```
 
 The static export output will be in the `out/` directory for deployment to static hosts.
@@ -50,5 +49,5 @@ Optimized for Vercel deployment. Push to GitHub and import the repository in Ver
 
 ### Netlify
 
-If deploying to Netlify, set the build command to `npm run build && npm run export` and the publish directory to `out`.
+If deploying to Netlify, set the build command to `npm run build` and the publish directory to `out`.
 This repository includes a `netlify.toml` file with these settings preconfigured.
